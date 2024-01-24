@@ -8,10 +8,16 @@
         #divpai {
             display: flex;
             justify-content: center;
-            
-            
-            
         }
+
+
+        html, body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        } 
+
+
 
         #div1 {
             background-color: none;
@@ -19,9 +25,7 @@
             height: 400px;
             width: 400px;
             margin-top: 200px;
-            transition: all 0.4s ease;
-            
-            
+            transition: all 0.4s ease; 
         }
 
         #div-input {
@@ -49,17 +53,69 @@
             
         }
 
-        #div-pai-p {
+
+        #div-h1-final {
+            font-size: 17px;
             display: flex;
             justify-content: center;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 30px;
-            font-weight: bold;
+            width: 100%;
+            height: fit-content;
+
+        }
+        
+
+
+        
+
+
+
+        
+
+
+        @media screen and (max-width: 767px) {
+        html, body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
         }
 
-        #p {
-            margin-left: 30px;
+        #div1 {
+            height: 250px;
+            width:  250px;
         }
+
+        #input {
+            height: 65px;
+            width: 350px;
+        }
+
+
+        #div-h1-final {
+            font-size: 17px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: fit-content;
+
+        }
+        
+    
+
+        
+        }        
+
+
+
+
+
+
+
+
+
+
+
+
+
     </style>
 </head>
 <body>
@@ -78,9 +134,13 @@
         <h1 id="h1-aviso">👆 Digite aqui 👆 </h1>
     </div>
 
-    <div id="div-pai-p">
-        <p id="p"> Feito por Djair 😎</p>
+    <div id="div-h1-final">
+        <h1 id="h1-final">
+            Feito por Djair
+        </h1>
     </div>
+
+    
 
 
     <script>
